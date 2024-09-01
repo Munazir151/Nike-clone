@@ -1,0 +1,280 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #D0D4D5;
+    position: relative;
+}
+#nav{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+#nav-1 img{
+    height: 60%;
+    margin-right: 170px;
+}
+#nav-1{
+  display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#nav-1 h4{
+    margin-right: 60px;
+}
+#nav-2 i{
+    margin-left: 60px;
+}
+#content{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    
+}
+#left
+{
+    width: 40%;
+    height: 100%;
+   padding: 100px 50px;
+}
+#left h5{
+    font-size: 20px;
+    color: #535353;
+    margin-bottom: 20px;
+}
+#left h1{
+    font-size: 60px;
+    line-height: 60px;
+    margin-bottom: 30px;
+}
+#left p{
+    font-size: 18px;
+    color: #535353;
+}
+#left button{
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    padding: 12px 30px;
+    margin-top: 40px;
+    border-top-left-radius: 40px;
+    text-transform: uppercase;
+}
+#right{
+    height: 100%;
+   width: 60%;
+   display: flex;
+   justify-content: space-evenly;
+   margin-top: 70px;
+   
+   
+}
+.elem{
+    height: 540px;
+    width: 380px;
+   border-radius: 30px;
+    background-color: #fff;
+    position: relative;
+}
+.elem img{
+    height: 70%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+.elem h3{
+    position: absolute;
+    top: 470px;
+    height: 30px;
+   padding: 7px;
+    font-size: 15px;
+   
+    background-color: black;
+    color: #fff;
+    right: 0;
+}
+.elem h4{
+ font-size: 20px;
+ height: 40px;
+    position: absolute;
+    padding: 10px;
+   
+    bottom: 0;
+    right: 0;
+    background-color: #D0D4D5;
+}
+.head{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    margin-top: 60px;
+   
+}
+.head h1{
+    font-size: 30px;
+    font-weight: 100px;
+}
+.head h2{
+    font-size: 30px;
+    font-weight: 100px;
+}
+.items{
+    width: 100%;
+    height: 100%;
+    background-color: #D0D4D5;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+}
+.item-1{
+    height: 70%;
+    width: 32%;
+  
+}
+.item-1 h4{
+    font-size: 20px;
+    color: #535353;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.item-1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.item-2{
+    height: 70%;
+    width: 32%;
+}
+.item-2 h4{
+    font-size: 20px;
+    color: #535353;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.item-2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.item-3{
+    height: 70%;
+    width: 32%;
+
+}
+.item-3 h4{
+    font-size: 20px;
+    color: #535353;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.item-3 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+@media only screen and (min-width: 300px) and (max-width: 900px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    html, body {
+        height: 100%;
+        width: 100%;
+        background-color: #D0D4D5;
+    }
+    #main {
+        height: 100%;
+        width: 100%;
+        background-color: #D0D4D5;
+        position: relative;
+    }
+    #nav {
+        margin: 0;
+        gap: 0px;
+        display: flex;
+    }
+    #nav-1 h4 { 
+        display: none;
+    }
+    #nav-2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    #content {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    #left {
+        width: 100%;
+        height: 100%;
+        padding: 50px 20px;
+    }
+    #right {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 20px;
+    }
+    .head {
+        width: 100%;
+        height: 10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+    }
+    .items {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 450px;
+        padding-top: 90px;
+    }
+    .item-1, .item-2, .item-3 {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    .item-1, .item-2, .item-3 {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    .item-1 img, .item-2 img, .item-3 img {
+        height: auto;
+        width: 100%;
+    }
+    .elem {
+        height: 540px;
+        width: 380px;
+        border-radius: 30px;
+        background-color: #fff;
+        position: relative;
+        overflow: hidden;
+    }
+    .elem img {
+        height: 70%;
+        width: 100%;
+        object-fit: cover;
+        position: relative;
+    }
+}
+
